@@ -11,4 +11,4 @@ line-length = 120
 show-fixes = true
 
 # By default, always show source code snippets.
-show-source = true⏎
+show-source = true
