@@ -1,0 +1,14 @@
+# On top of the default `select` (`E`, `F`), enable warnings (`W`), pep8-naming (`N`), flake8-builtins (A), flake8-bugbear (`B`), flake8-quotes (`Q`), flake8-bandit (S), flake8-simplify (SIM), and Pylint (`PL`).
+extend-select = ["W", "N", "A", "B", "Q", "S", "SIM", "PL"]
+
+# Duplicate of B001
+extend-ignore = ["E722"]
+
+# Allow lines to be as long as 120 characters.
+line-length = 120
+
+# By default, always enumerate fixed violations.
+show-fixes = true
+
+# By default, always show source code snippets.
+show-source = true
